@@ -1,0 +1,35 @@
+/* Theme Customizer styles */
+
+.customize-section-description-container > p {
+	font-style:italic;
+}
+
+.customize-control-description {
+	font-size: 0.85em !important;
+}
+.customize-control-info > label {
+	font-style:italic;
+	padding:1em;
+	background-color:#e0e0e0;
+}
+
+#customize-theme-controls li > label {
+	display:block;
+	margin-top: 1.2em;
+}
+
+#customize-theme-controls li:not(.customize-section-description-container):not(.customize-control-info) + li > label {
+	padding-top:0.8em;
+	border-top: 1px dotted #ddd;
+}
+
+.customize-control > label > label {
+	display:inline-block;
+	margin:0 1em 0 0;
+	padding:0;
+	border:none;
+}
+
+#customize-control-page_preloader .attachment-thumb {
+	width:64px;
+}
